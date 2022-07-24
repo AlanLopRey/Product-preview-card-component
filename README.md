@@ -27,11 +27,11 @@ Users should be able to:
 
 #### Desktop design
 
-![an image of the of the Gabrielle Essence Fragance for the desktop design ](../product-preview-card-component-main/images/Frontend%20Mentor%20Product%20preview%20card%20component%20for%20Desktop.png)
+![an image of the of the Gabrielle Essence Fragance for the desktop design ](/product-preview-card-component-main/images/Frontend%20Mentor%20Product%20preview%20card%20component%20for%20Desktop.png)
 
 #### Mobile design
 
-![an image of the of the Gabrielle Essence Fragance for the Mobile design ](../product-preview-card-component-main/images/Frontend%20Mentor%20Product%20preview%20card%20component%20for%20Mobile.png)
+![an image of the of the Gabrielle Essence Fragance for the Mobile design ](/product-preview-card-component-main/images/Frontend%20Mentor%20Product%20preview%20card%20component%20for%20Mobile.png)
 
 ### Links
 
