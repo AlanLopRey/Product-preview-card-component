@@ -27,7 +27,7 @@ Users should be able to:
 
 #### Desktop design
 
-![an image of the of the Gabrielle Essence Fragance for the desktop design ](design\desktop-design.jpg)
+![an image of the of the Gabrielle Essence Fragance for the desktop design ]([design\desktop-design.jpg](https://raw.githubusercontent.com/AlanLopRey/Product-preview-card-component/main/design/desktop-design.jpg))
 
 #### Mobile design
 
