@@ -31,7 +31,7 @@ Users should be able to:
 
 #### Mobile design
 
-![an image of the of the Gabrielle Essence Fragance for the Mobile design ](design\mobile-design.jpg)
+![an image of the of the Gabrielle Essence Fragance for the Mobile design ](https://github.com/AlanLopRey/Product-preview-card-component/blob/f54eeacaf6fd0c29779fd59fd72cf358195088a9/design/mobile-design.jpg)
 
 ### Links
 
