@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  /*PRIMARY COLORS*/ /*COLORES PRIMARIOS*/
+  --Dark_cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  /*SECONDARY COLORS*/ /*COLORES SECUNDARIOS*/
+  --Very_dark_blue: hsl(212, 21%, 14%);
+  --Dark_grayish_blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/*
+    font-family: 'Fraunces', serif;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*######## PROBLEM SOLUTION BELOW BY ALAN LOPEZ###########*/
+body {
+  background-color: var(--Cream);
+  min-width: 375px;
+  height: auto;
+}
+
+.cardContainer {
+  width: 345px;
+  height: auto;
+  background-color: var(--White);
+  margin: 28px auto 28px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardContainer .containerImage img {
+  width: 345px;
+}
+
+.textContainer {
+  margin-top: 26px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.perfumeText {
+  display: block;
+  margin-bottom: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--Dark_grayish_blue);
+  letter-spacing: 5px;
+}
+
+.textHeader {
+  display: block;
+  margin-bottom: 25px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.paragraphText {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--Dark_grayish_blue);
+}
+
+.priceContainer {
+  margin-left: 25px;
+  margin-right: 42px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.principalPrice {
+  font-family: "Fraunces", serif;
+  margin-right: 20px;
+  color: var(--Dark_cyan);
+}
+
+.secundaryPrice {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  text-decoration: line-through;
+  color: var(--Dark_grayish_blue);
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.button #button {
+  background-color: var(--Dark_cyan);
+  border-radius: 10px;
+  width: 295px;
+  height: 50px;
+  color: var(--White);
+  font-weight: 700;
+}
+
+#button img {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .cardContainer {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contentFlex {
+    width: 300px;
+  }
+
+  .containerImage {
+    width: 300px;
+    height: 450px;
+    content: url(../images/image-product-desktop.jpg);
+  }
+
+  #button:hover {
+    background-color: #004334;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .attribution {
+    margin-bottom: 170px;
+  }
+}
